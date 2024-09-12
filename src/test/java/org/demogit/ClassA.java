@@ -24,6 +24,12 @@ public class ClassA {
 		System.out.println("5");
 	}
 
+	private void newM6() {
+		System.out.println("newModule6");
+	}
+	private void newM7() {
+		System.out.println("newModule7");
+	}
 	public static void main(String[] args) {
 		ClassA a = new ClassA();
 		a.m1();
@@ -31,6 +37,10 @@ public class ClassA {
 		a.m3();
 		a.m4();
 		a.m5();
+		
+		
+		a.newM6();
+		a.newM7();
 	}
 
 }
