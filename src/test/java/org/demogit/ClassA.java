@@ -24,6 +24,14 @@ public class ClassA {
 		System.out.println("5");
 	}
 
+	private void m6() {
+		System.out.println("6");
+	}
+
+	private void m7() {
+		System.out.println("7");
+	}
+
 	public static void main(String[] args) {
 		ClassA a = new ClassA();
 		a.m1();
@@ -31,6 +39,8 @@ public class ClassA {
 		a.m3();
 		a.m4();
 		a.m5();
+		a.m6();
+		a.m7();
 	}
 
 }
